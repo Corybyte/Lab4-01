@@ -16,3 +16,4 @@ jobs:
       run: |
         pip3 install poetry
         poetry -V
+        poetry shell
