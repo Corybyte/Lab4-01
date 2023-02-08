@@ -15,5 +15,4 @@ jobs:
         LAST_NAME: Octocat
       run: |
         pip3 install poetry
-           |
-        poetry -V
+        echo "123kjkj"
