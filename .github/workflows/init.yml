@@ -19,3 +19,4 @@ jobs:
         cd /home/runner/work/Lab4-01/Lab4-01/
         git clone https://github.com/Corybyte/Lab4-01.git
         cd /home/runner/work/Lab4-01/Lab4-01/Lab4-01/
+        ls
