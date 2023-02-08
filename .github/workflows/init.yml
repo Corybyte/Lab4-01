@@ -8,15 +8,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Print a greeting
-      env:
-        MY_VAR: Hi there! My name is
-        FIRST_NAME: Mona
-        MIDDLE_NAME: The
-        LAST_NAME: Octocat
       run: |
-        pip3 install poetry
-        poetry -V
-        cd /home/runner/work/Lab4-01/Lab4-01/
-        git clone https://github.com/Corybyte/Lab4-01.git
-        cd /home/runner/work/Lab4-01/Lab4-01/Lab4-01/
-        poetry shell
+          ls -al
