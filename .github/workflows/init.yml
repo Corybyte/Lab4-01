@@ -16,4 +16,4 @@ jobs:
       run: |
         pip3 install poetry
         poetry -V
-        ls /home/runner/work/Lab4-01
+        ls /home/runner/work/Lab4-01/Lab4-01
