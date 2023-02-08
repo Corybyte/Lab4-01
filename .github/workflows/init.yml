@@ -2,10 +2,17 @@ name: Greeting from Mona
 on: push
 
 jobs:
-  my-job:
+  job01:
     name: My Job
     runs-on: ubuntu-latest
     steps:
     - name: Print a greeting
       run: |
           pip3 install poetry
+  job02:
+    name: job02
+    runs-on: ubuntu-latest
+    steps:
+    - name: poetry shell
+      run: |
+          poetry shell
