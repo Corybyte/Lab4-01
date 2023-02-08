@@ -15,3 +15,4 @@ jobs:
         LAST_NAME: Octocat
 
     - run: pip3 install poetry
+    - run: poetry shell
